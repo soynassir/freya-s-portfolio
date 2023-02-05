@@ -1,0 +1,101 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     background-color: whitesmoke;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* header {
+
+} */
+
+#main-section {
+     display: flex;
+     justify-content: space-between;
+}
+
+#title-div {
+     text-align: center;
+     padding: 6%;
+     font-size: 30px;
+     background-color: #f6f6f6;
+}
+
+h3#title {
+     font-size: 25px;
+     font-weight: 300;
+     font-family: 'Raleway', sans-serif;
+}
+
+h1#alias {
+     font-size: 130px;
+     margin-bottom: 150px;
+     /* font-family: 'Itim', cursive; */
+     font-family: 'Crimson Text', serif;
+}
+
+h3#profession {
+     font-size: 23px;
+     font-weight: 300;
+     font-family: 'Raleway', sans-serif;
+     display: inline;
+     margin: 0 60px;
+
+}
+
+a#email-me {
+     font-size: 23px;
+     font-weight: 400;
+     font-family: 'Raleway', sans-serif;
+     margin: 0 50px;
+     text-decoration: none;
+     color: black;
+}
+
+a#email-me:hover {
+     border-bottom: 1px solid black;
+     padding-bottom: 10px;
+}
+
+#img-div {
+     overflow: hidden;
+
+     width: 600px;
+     height: 820px;
+}
+
+img {
+     width: 603px;
+}
+
+/* footer {
+
+} */
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
